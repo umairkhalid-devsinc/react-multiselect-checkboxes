@@ -11,7 +11,6 @@
     "docs": "webpack-dev-server --mode development",
     "docs:prod": "webpack --mode production",
     "build": "npm run lib && npm run docs:prod && npm run build-storybook",
-    "prepare": "npm run build",
     "storybook": "start-storybook -p 6006",
     "prestorybook": "npm run munge",
     "prebuild-storybook": "npm run munge",
