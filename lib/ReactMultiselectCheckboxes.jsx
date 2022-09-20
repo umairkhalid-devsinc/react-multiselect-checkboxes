@@ -220,7 +220,7 @@ export default class ReactMultiselectCheckboxes extends Component {
       value: propsValue,
       hideSearch,
       minItemsForSearch,
-      options: preTransformOptions,
+      options,
       resetInputOnSelect,
       onInputChange,
       ...rest
