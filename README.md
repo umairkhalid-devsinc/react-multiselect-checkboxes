@@ -1,6 +1,6 @@
 # React Multiselect Checkboxes
 
-A flexible, stylable, compact multi-select component. 
+A flexible, stylable, compact multi-select component.
 
 It's based on [`react-select`](https://github.com/JedWatson/react-select) and has a similar API for data and styling.
 
@@ -75,6 +75,5 @@ No props, this is just a down-facing chevron icon, in SVG form.
 
 - [ ] Fire up the Github.io site
 - [ ] Allow replacing more props (e.g. `Menu`)
-- [ ] Tests
-- [ ] More comprehensive storybook
-- [ ] ???
+- [x] Tests
+- [x] More comprehensive storybook
