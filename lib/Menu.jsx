@@ -1,8 +1,7 @@
 import React from "react";
-import { colors } from "react-select/lib/theme";
 
 export default function Menu(props) {
-  const shadow = colors.neutral10a;
+  const shadow = '#ececec';
   const style = {
     backgroundColor: "white",
     borderRadius: 4,

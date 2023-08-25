@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import Select from "react-select";
-import { colors } from "react-select/lib/theme";
 import CheckboxGroup, { CheckboxGroupHeading } from "./CheckboxGroup";
 import CheckboxOption from "./CheckboxOption";
 import ChevronDown from "./ChevronDown";
@@ -41,17 +40,17 @@ const defaultStyles = {
     if (opts.checked) {
       return {
         ...provided,
-        backgroundColor: colors.primary50,
-        color: colors.neutral80,
+        backgroundColor: '#ffffff',
+        color: '000000',
       };
     }
     if (opts.indeterminate) {
-      return { ...provided, backgroundColor: colors.primary25 };
+      return { ...provided, backgroundColor: '#ffffff' };
     }
     return {
       ...provided,
       ":hover": {
-        backgroundColor: colors.primary25,
+        backgroundColor: '#ececec',
       },
     };
   },
@@ -64,7 +63,7 @@ const defaultStyles = {
       }
     });
     if (opts.isOpen) {
-      return { ...provided, background: colors.neutral3 };
+      return { ...provided, background: '#ffffff' };
     }
     return provided;
   },
@@ -73,7 +72,7 @@ const defaultStyles = {
       return {
         ...provided,
         color: "#000",
-        backgroundColor: colors.primary50,
+        backgroundColor: '#ffffff',
         fontWeight: "bold",
         minWidth: 240,
       };
@@ -82,7 +81,7 @@ const defaultStyles = {
       ...provided,
       backgroundColor: "transparent",
       minWidth: 240,
-      ":hover": { backgroundColor: colors.primary25 },
+      ":hover": { backgroundColor: '#ffffff' },
     };
   },
 };

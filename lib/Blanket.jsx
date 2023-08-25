@@ -1,5 +1,4 @@
 import React from "react";
-import { colors } from "react-select/lib/theme";
 
 export default function Blanket(props) {
   return (

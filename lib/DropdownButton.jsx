@@ -1,4 +1,3 @@
-import { colors } from "react-select/lib/theme";
 import { css } from "emotion";
 import React from "react";
 import PropTypes from "prop-types";
@@ -29,7 +28,6 @@ export const defaultDropdownButtonStyle = {
   alignItems: "baseline",
   background: "#FFF",
   boxSizing: "border-box",
-  borderColor: colors.neutral20,
   cursor: "pointer",
   display: "inline-flex",
   margin: 0,
