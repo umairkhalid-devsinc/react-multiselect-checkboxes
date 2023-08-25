@@ -75,8 +75,8 @@
     "url": ""
   },
   "dependencies": {
+    "@emotion/css": "^11.11.2",
     "deepmerge": "^4.3.1",
-    "emotion": "^11.0.0",
     "prop-types": "^15.8.1",
     "react-select": "^5.7.4"
   }
