@@ -35,7 +35,6 @@ export default class PopoutExample extends Component {
   state = { isOpen: false, value: undefined };
 
   onSelectChange = (value) => {
-    // this.toggleOpen();
     this.setState({ value });
   };
 
