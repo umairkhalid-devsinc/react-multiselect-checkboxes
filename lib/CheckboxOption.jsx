@@ -19,7 +19,7 @@ function CheckboxOption(props) {
     <div
       ref={innerRef}
       className={cx(
-        css(getStyles("react-select__option", props)),
+        css(getStyles("option", props)),
         {
           option: true,
           "option--is-disabled": isDisabled,
@@ -34,7 +34,7 @@ function CheckboxOption(props) {
         readOnly
         type="checkbox"
         checked={isSelected}
-      /> I am
+      />
       {children}
     </div>
   );
