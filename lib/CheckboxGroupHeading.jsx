@@ -36,7 +36,6 @@ class CheckboxWithIndeterminate extends React.Component {
 
 export const GroupHeading = (props) => {
   const { className, cx, getStyles, children, ...cleanProps } = props;
-  console.log(props);
   return (
     <div
       className={cx(

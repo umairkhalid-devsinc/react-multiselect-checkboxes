@@ -1,9 +1,6 @@
-import React from "react";
-import Select from "react-select";
+import { Component } from "react";
 
-class MySuperCoolComponent extends React.Component {
-  state = {};
-
+class MySuperCoolComponent extends Component {
   render() {
     return (
       <div style={{ width: 200 }}>
