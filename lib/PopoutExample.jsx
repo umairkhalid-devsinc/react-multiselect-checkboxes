@@ -76,6 +76,7 @@ export default class PopoutExample extends Component {
           hideSelectedOptions={false}
           isClearable={false}
           menuIsOpen
+          classNamePrefix="react-select"
           onChange={this.onSelectChange}
           options={groupedOptions}
           placeholder="Search..."
