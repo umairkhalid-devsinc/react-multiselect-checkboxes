@@ -28,6 +28,7 @@ export const defaultDropdownButtonStyle = {
   alignItems: "baseline",
   background: "#FFF",
   boxSizing: "border-box",
+  borderColor: '1px solid rgb(200, 197, 197)',
   cursor: "pointer",
   display: "inline-flex",
   margin: 0,
