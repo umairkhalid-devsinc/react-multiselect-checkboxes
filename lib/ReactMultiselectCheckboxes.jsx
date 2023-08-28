@@ -28,7 +28,6 @@ const defaultStyles = {
   control: (provided) => ({ ...provided, minWidth: 240, margin: 8 }),
   menu: () => ({ boxShadow: "inset 0 1px 0 rgba(0, 0, 0, 0.1)" }),
   groupHeading: (def, opts) => {
-    debugger
     const provided = {
       ...def,
       marginBottom: 0,
@@ -193,7 +192,6 @@ export default class ReactMultiselectCheckboxes extends Component {
     // with the defaults from defaultStyles for user-provided style functions.
     const propsStyles = { ...this.props.styles };
     Object.entries(defaultStyles).forEach(([k, defaultFunc]) => {
-      debugger
       if (propsStyles[k]) {
         const passedInStyleFunc = propsStyles[k];
         propsStyles[k] = (provided, selectState) =>
