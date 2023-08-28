@@ -34,7 +34,7 @@ function CheckboxOption(props) {
         readOnly
         type="checkbox"
         checked={isSelected}
-      />
+      /> I am
       {children}
     </div>
   );
