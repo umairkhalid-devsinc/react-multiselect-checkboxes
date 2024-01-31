@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Blanket from "./Blanket";
-import Menu from "./Menu";
+import Blanket from "../lib/Blanket";
+import Menu from "../lib/Menu";
 
 export default function Dropdown({
   children,

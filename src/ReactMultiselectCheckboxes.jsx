@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import Select from "react-select";
-import CheckboxGroup, { CheckboxGroupHeading } from "./CheckboxGroup";
-import CheckboxOption from "./CheckboxOption";
-import ChevronDown from "./ChevronDown";
-import Dropdown from "./Dropdown";
-import DropdownButton, { defaultDropdownButtonStyle } from "./DropdownButton";
-import DropdownIndicator from "./DropdownIndicator";
+import CheckboxGroup, { CheckboxGroupHeading } from "../lib/CheckboxGroup";
+import CheckboxOption from "../lib/CheckboxOption";
+import ChevronDown from "../lib/ChevronDown";
+import Dropdown from "../lib/Dropdown";
+import DropdownButton, { defaultDropdownButtonStyle } from "../lib/DropdownButton";
+import DropdownIndicator from "../lib/DropdownIndicator";
 
 const countOptions = (opts) => {
   if (!opts || !Array.isArray(opts)) return 0;

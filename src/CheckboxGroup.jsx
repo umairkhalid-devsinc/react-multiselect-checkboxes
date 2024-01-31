@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { css } from '@emotion/css';
-import CheckboxWithIndeterminate from "./CheckboxWithIndeterminate";
+import CheckboxWithIndeterminate from "../lib/CheckboxWithIndeterminate";
 
 function CheckboxGroup(props) {
   const {

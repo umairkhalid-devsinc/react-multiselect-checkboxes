@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Select from "react-select";
-import CheckboxOption from "./CheckboxOption";
-import CheckboxGroup, { CheckboxGroupHeading } from "./CheckboxGroup";
-import { groupedOptions } from "./data";
-import DropdownButton from "./DropdownButton";
-import Dropdown from "./Dropdown";
-import DropdownIndicator from "./DropdownIndicator";
-import ChevronDown from "./ChevronDown";
+import CheckboxOption from "../lib/CheckboxOption";
+import CheckboxGroup, { CheckboxGroupHeading } from "../lib/CheckboxGroup";
+import { groupedOptions } from "../lib/data";
+import DropdownButton from "../lib/DropdownButton";
+import Dropdown from "../lib/Dropdown";
+import DropdownIndicator from "../lib/DropdownIndicator";
+import ChevronDown from "../lib/ChevronDown";
 
 const selectStyles = {
   control: (provided) => ({ ...provided, minWidth: 240, margin: 8 }),
